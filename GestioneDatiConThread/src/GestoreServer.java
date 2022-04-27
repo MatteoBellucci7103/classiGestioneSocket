@@ -5,6 +5,7 @@ public class GestoreServer {
 		Server srv = new Server(2000);
 		srv.ascolto();
 		
+		
 	}
 }
 

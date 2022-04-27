@@ -1,9 +1,7 @@
 public class CountDown extends Thread  {
 	
-        long minPrime;
-        CountDown(long minPrime) {
-            this.minPrime = minPrime;
-        }
+        Thread m = new Thread (1000);
+        m.start();
 
         public void run() {
             System.out.println() ;      }
